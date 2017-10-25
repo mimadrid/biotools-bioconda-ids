@@ -1,5 +1,5 @@
 # Repository to facilitate the ID mamping among the ELIXIR tools platform resources.
-## forked from https://github.com/BioContainers/biotools-bioconda-ids 
+## forked from https://github.com/BioContainers/biotools-bioconda-ids
 
 ## Working files from bio.tools, bioconda/biocontainers & galaxy should follow this format:
 `<stable tool ID><tab><URL><tab><Relevant URLs separated by ";"><tab><anything else separated by ";">`
@@ -15,3 +15,14 @@ Canonical ID <tab>bio.tools namespace: bio.tools ID <tab>bio.tools URL<tab>other
 Canonical ID <tab>galaxy namespace: galaxy ID       <tab>Galaxy URL <tab>other Galaxy relevant data`
 Canonical ID <tab>bioconda namespace: bioconda ID    <tab>bioconda URL <tab>other bioconda relevant data`
 ```
+
+## How run it
+### Prerequesites
+**Do not have _jupyter_ packages installed from the system repositories**
+
+`pip install pipenv`
+
+### Usage
+`pipenv install`
+
+`pipenv run jupyter notebook`
