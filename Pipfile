@@ -10,8 +10,10 @@ name = "pypi"
 "glob2" = "*"
 pandas = "*"
 ruamel-yaml = "*"
-pyyaml = "*"
 jupyter = "*"
+pyyaml = "*"
+requests = "*"
+matplotlib-venn = "*"
 
 
 [dev-packages]
